@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Our Wbsite Description">
+    <meta name="keywords" content="HTML,CSS,Flex, Responsive, Form">
+    
     <link rel="icon" href="images/icone.png" type="image/gif" sizes="16x16">
     <script src="https://kit.fontawesome.com/c159d19af3.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,14 +83,25 @@
                 <h2 class="text-divh" >CONTACT</h2>
                 <p class="text-divp">Contact us to get free support</p>
             </div>
-            <div>
-                <form action="#">
-                   <input type="Description" id="description">
-                   <input type="Subject" id="subject">
-                   <input type="Name/Surname" id="namesurname">
-                   <input type="Email" id="email">
-                </form>
-            </div>
+            <form action="#">
+                <div class="form-div">
+                    <div class="infut-div1">
+                        <input class="infut1" type="text" id="description" name="description" placeholder="Description">
+                    </div>
+                    <div class="infut-div2">
+                        <input class="infut2" type="text" id="subject" name="subject" placeholder="Subject">
+
+                        <input class="infut2" type="text" id="namesurname" name="namesurname" placeholder="Name/Surname">
+
+                        <input class="infut2" type="text" id="email" name="email" placeholder="Email">
+
+                        <button class="button-send" type="submit"> 
+                           <p class="buttonp">Send</p>
+                           <img class="send-logo" src="images/send-logo.png" alt="send-logo">
+                        </button>
+                    </div>
+                </div>  
+            </form>   
             <div class="div-box">
                 <div class="box">
                     <div class="smoll-div">
