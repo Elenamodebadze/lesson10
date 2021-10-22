@@ -78,6 +78,39 @@
     width: 100%;
     height: 286px;
 }
+/* section2 styles */
+.section2-div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;}
+.div-box {
+    padding-top: 50px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.smoll-div {
+    width: 60px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+.image {
+    width: 40px;
+    height: 40px;}
+.box-p {
+    width: 177px;
+    color: gray;
+    font-size: 22px;
+}
 /* section 3 styles */
 .text-divh {
     font-size: 18px;
