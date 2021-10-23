@@ -22,17 +22,17 @@
 @media (max-width:768px) {
     .image1:nth-child(2) {
         margin-top: 60px;
-        margin-left: 0;}} 
+        width: 100%;
+        margin-left: 0;}
+    .image1:nth-child(1){
+        width: 100%;
+    }
+} 
 @media (max-width: 768px){
     .div-box {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;}}
 @media (max-width: 1024px) {
     .image1:nth-child(3) {
-        width: 764px;
-    }}
-@media (max-width: 768px) {
-    .image1:nth-child(3) {
-        width: 352px;
-    }
-}
+        width: 100%; }}
+
