@@ -35,4 +35,20 @@
 @media (max-width: 1024px) {
     .image1:nth-child(3) {
         width: 100%; }}
-
+@media (max-width:1200px){
+    .footer-background {
+        height: auto;
+    }
+    .footer-div {
+        height: auto;
+    }}
+@media (max-width: 768px) {
+    .footer-div {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .second-div {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
