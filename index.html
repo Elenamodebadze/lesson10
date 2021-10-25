@@ -86,18 +86,22 @@
             <form action="#">
                 <div class="form-div">
                     <div class="infut-div1">
-                        <input class="infut1" type="text" id="description" name="description" placeholder="Description">
+                        <label for="description"></label>
+                        <textarea class="textarea" name="text" id="description" cols="30" rows="10" placeholder="Description" required></textarea>
                     </div>
                     <div class="infut-div2">
+                        <label for="subject"></label>
                         <input class="infut2" type="text" id="subject" name="subject" placeholder="Subject">
-
-                        <input class="infut2" type="text" id="namesurname" name="namesurname" placeholder="Name/Surname">
-
-                        <input class="infut2" type="text" id="email" name="email" placeholder="Email">
+                        
+                        <label for="namesurname"></label>
+                        <input class="infut2" type="text" id="namesurname" name="namesurname" placeholder="Name/Surname" required>
+                        
+                        <label for="email"></label>
+                        <input class="infut2" type="text" id="email" name="email" placeholder="Email" required>
 
                         <button class="button-send" type="submit"> 
                            Send
-                           <img class="send-logo" src="images/send-logo.png" alt="send-logo">
+                           <img class="send-logo" src="images/send-logo.png" alt="send-logo" required>
                         </button>
                     </div>
                 </div>  
