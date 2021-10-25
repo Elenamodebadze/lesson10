@@ -283,7 +283,7 @@
     align-items: center;}
 .footer-p {
     color: var(--whitecolor);
-    font-family: var(--fontfamili);
+    font-family: var(--fontfamilipopins);
     max-width: 170px;
     width: 100%;
     font-size: 10px;
@@ -329,9 +329,15 @@
     width: 100%;
     margin: 0 auto;}
 .footer-li {
-    color:var(--blucolor);
     margin-bottom: 15px;
-    font-family: var(--fontfamili);}
+    }
+.footer-lia {
+    color:var(--blucolor);
+    font-family: var(----fontfamilipopins);
+}
+.footer-li2 {
+    color: var(--blucolor);
+}
 .span-section {
     color: var(--blucolor);}
 /* veriables */
@@ -340,5 +346,7 @@
 :root {
     --whitecolor: white;}
 :root {
-    --fontfamili: 'Lato', sans-serif;
+    --fontfamili: 'Lato', sans-serif;}
+:root {
+    --fontfamilipopins: 'Poppins', sans-serif;
 }
