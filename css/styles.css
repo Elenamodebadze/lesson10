@@ -105,7 +105,39 @@
     border-color: darkgrey;
     border-style:solid;
     resize: none;}
+.textarea::-webkit-input-placeholder {
+    color: darkgrey;
+    font-size: 15px;
+    font-style: oblique;}
+.textarea::-moz-placeholder {
+    color: darkgrey;
+    font-size: 15px;
+    font-style: oblique;}
+.textarea:-ms-input-placeholder {
+    color: darkgrey;
+    font-size: 15px;
+    font-style: oblique;}
+.textarea::-ms-input-placeholder {
+    color: darkgrey;
+    font-size: 15px;
+    font-style: oblique;}
 .textarea::placeholder {
+    color: darkgrey;
+    font-size: 15px;
+    font-style: oblique;}
+.infut2::-webkit-input-placeholder {
+    color: darkgrey;
+    font-size: 15px;
+    font-style: oblique;}
+.infut2::-moz-placeholder {
+    color: darkgrey;
+    font-size: 15px;
+    font-style: oblique;}
+.infut2:-ms-input-placeholder {
+    color: darkgrey;
+    font-size: 15px;
+    font-style: oblique;}
+.infut2::-ms-input-placeholder {
     color: darkgrey;
     font-size: 15px;
     font-style: oblique;}
@@ -209,7 +241,8 @@
 .image {
     width: 40px;
     height: 40px;
-    object-fit: cover;}
+    -o-object-fit: cover;
+       object-fit: cover;}
 .box-p {
     margin-top: 10px;
     max-width: 177px;
@@ -243,7 +276,8 @@
 .image1 {
     width: 352px;
     height: 352px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     }
 .section3-div{
     width: 100%;
@@ -270,17 +304,24 @@
 .footer-icone {
     width: 25px;
     height: 25px;
-    object-fit: cover;}
+    -o-object-fit: cover;
+       object-fit: cover;}
 .footer-icone1 {
     width: 20px;
     height: 20px;
-    object-fit: cover;}
+    -o-object-fit: cover;
+       object-fit: cover;}
 .footer-iconediv {
     max-width: 75px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;}
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;}
 .footer-p {
     color: var(--whitecolor);
     font-family: var(--fontfamilipopins);
@@ -290,24 +331,38 @@
     margin-top: 30px;
     margin-bottom: 30px;}
 .footer-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     max-width: 1088px;
     width: 100%;
     margin: 0 auto;
     margin-top: 100px;
     height: 300px;}
 .footer1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     max-width: 200px;
     width: 100%;}
 .footer-icone {
     width: 20px;
     height: 20px;
-    object-fit: cover;}
+    -o-object-fit: cover;
+       object-fit: cover;}
 .footer-h3 {
     color: var(--whitecolor);
     font-size: 25px;
@@ -317,14 +372,26 @@
     max-width: 600px;
     width: 100%;}
 .div-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 20px;}
 .second-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     max-width: 1088px;
     width: 100%;
     margin: 0 auto;}
